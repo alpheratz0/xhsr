@@ -1,0 +1,10 @@
+xhsr is a utility for X that prints the id of the
+root window of the screen on which the mouse cursor is.
+
+This program requires libxcb to be installed.
+In order to build this program you need to run `make`.
+
+This program is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public License
+version 2 as published by the Free Software Foundation.
+See COPYING for more details.
