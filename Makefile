@@ -11,7 +11,7 @@ xhsr: xhsr.o
 clean:
 	rm -f xhsr xhsr.o xhsr-$(VERSION).tar.gz
 
-install: all
+install: xhsr
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f xhsr $(DESTDIR)$(PREFIX)/bin
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/xhsr
