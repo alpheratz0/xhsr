@@ -38,7 +38,7 @@ die(const char *fmt, ...)
 static void
 usage(void)
 {
-	puts("xhsr [-hv]");
+	puts("usage: xhsr [-hv]");
 	exit(0);
 }
 
