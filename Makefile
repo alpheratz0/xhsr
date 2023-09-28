@@ -6,7 +6,7 @@ include config.mk
 all: xhsr
 
 xhsr: xhsr.o
-	$(CC) $(LDFLAGS) -o xhsr xhsr.o $(LDLIBS)
+	$(CC) $(LDFLAGS) -o xhsr xhsr.o
 
 clean:
 	rm -f xhsr xhsr.o xhsr-$(VERSION).tar.gz
